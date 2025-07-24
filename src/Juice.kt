@@ -1,7 +1,7 @@
 class Juice : Drink() {
 
     override val name: String = "Jugo de Naranja"
-    override val price: Double = 19.99
+    override val price: Double = 10.01
 
     override fun pour(): String {
         return "Vierte el $name fresco en un vaso y disfruta de su sabor cítrico y refrescante."
