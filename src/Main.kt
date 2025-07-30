@@ -1,4 +1,4 @@
-fun Food.discountedPrice(descuento: Double): Double {
+fun Food.discountedPrice(descuento: Int): Double {
     return this.price * (100 - descuento) / 100
 }
 
@@ -13,4 +13,5 @@ fun main() {
     println(helado.cook())
     println(jugo.cook())
     println(helado.eat())
+    println(hamburguesa.discountedPrice(10))
 }
