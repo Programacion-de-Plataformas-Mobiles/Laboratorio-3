@@ -12,4 +12,5 @@ fun main() {
     println(pizza.cook())
     println(helado.cook())
     println(jugo.cook())
+    println(helado.eat())
 }
